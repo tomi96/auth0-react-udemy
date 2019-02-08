@@ -8,8 +8,8 @@ const LOGIN_FAILURE_PAGE ="/";
 
 export default class Auth {
     auth0 = new auth0.WebAuth({
-        domain: 'attomo.eu.auth0.com',
-        clientID: 'MUCukL9CtaLSkE6Rii8I0VcEeuSIA6RO',
+        domain: 'INSERT_DOMAIN',
+        clientID: 'INSERT_CLIENT_ID',
         redirectUri: 'http://localhost:3000/callback',
         responseType: 'token id_token',
         scope: 'openid profile'
